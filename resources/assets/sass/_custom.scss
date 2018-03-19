@@ -1,0 +1,106 @@
+// Custom
+//
+// Override the Bootstrap defaults without modifying key, versioned files.
+.navbar ul li a {
+            font-size: 12px;
+            font-weight: bold;
+            padding: 0;
+            cursor: pointer !important;
+            border-bottom: 1px solid transparent;
+            .edit {
+                padding: 6px 20px !important;
+            }
+            .but{
+                background:black;
+                color: #fff;
+                border-radius: 6px;
+            }
+        }
+
+.hero{
+    //background: url(/images/chair.png) no-repeat;
+    background: linear-gradient(rgba(25,2,0,0.85), rgba(25,2,0,0.9)),url('/images/hero-bg.jpg');
+    background-size: cover;
+    //background-position: 0 60%;
+    // display: grid;
+    // grid-template-columns: 1fr 1fr;
+    padding-top:58px;
+    padding-left:80px;
+    padding-bottom: 84px;
+    //text-align: center;
+    .hero-image {
+        padding-left: 60px;
+    }
+    h1 {
+        font-weight: bold;
+        //font-size: 28px;
+        font-size: 52px;
+        margin-top: 58px;
+    }
+    p{
+        margin: 40px 0 68px;
+    }
+    .button {
+        //margin-right: 14px;
+        font-size: 13px;
+        color: white;
+
+    }
+
+}
+.button {
+    border: 1px solid white;
+    padding: 12px 40px;
+    &:hover {
+        color: white;
+        background: rgb(0, 0,0);
+    }
+}
+.button-white {
+    border: 1px solid white;
+    color: white !important;
+}
+.services {
+    padding-top:40px;
+    padding-left:80px;
+    //text-align: center;
+    padding-bottom: 40px;
+    .headizy{
+        //padding-top:20px;
+        padding-bottom: 28px;
+        padding-left:120px;
+    }
+}
+.now {
+    padding-bottom: 50px;
+}
+.foot {
+    padding-bottom: 58px;
+    padding-top:50px;
+    background: #f7f7f7;
+}
+.call-to-action{
+    padding-bottom: 58px;
+    padding-top:50px;
+    background: #1080f2;
+    color: white;
+}
+.card-deck{
+    padding-bottom: 58px;
+    padding-top:50px;
+    .card-button{
+        padding-bottom: 58px;
+        padding-top:50px;
+    }
+}
+.hop{
+    
+    h1{
+        font-weight: bold;
+        font-size: 52px;
+        padding-bottom: 20px;
+    }
+    padding-bottom: 58px;
+    padding-top:50px;
+
+}
